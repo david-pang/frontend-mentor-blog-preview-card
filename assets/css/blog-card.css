@@ -43,6 +43,15 @@ body {
   margin: 0;
 }
 
+h1 {
+  clip: rect(1px, 1px, 1px, 1px);
+  font-size: 0;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
+
 h2 {
   font-size: var(--font-size-xl);
   font-weight: var(--font-weight-extra-bold);
