@@ -45,7 +45,7 @@ body {
 
 h2 {
   font-size: var(--font-size-xl);
-  font-weight: var(--font-weight-semi-bold);
+  font-weight: var(--font-weight-extra-bold);
   margin: 0;
 }
 
@@ -76,11 +76,11 @@ img {
 
 .card {
   background: var(--white);
-  border: 1px solid var(--black);
   border-radius: var(--gap-xl);
   box-shadow: 8px 8px 0 var(--black);
   display: grid;
   grid-gap: var(--gap-xxl);
+  outline: 1px solid var(--black);
   padding: var(--gap-xxl);
 }
 
@@ -105,7 +105,7 @@ img {
   border-radius: 4px;
   display: inline-flex;
   font-size: var(--font-size-s);
-  font-weight: var(--font-weight-semi-bold);
+  font-weight: var(--font-weight-extra-bold);
   padding: 4px 12px;
 }
 
@@ -126,7 +126,7 @@ img {
 
 .author-name {
   font-size: var(--font-size-m);
-  font-weight: var(--font-weight-semi-bold);
+  font-weight: var(--font-weight-extra-bold);
 }
 
 .attribution {
@@ -150,7 +150,11 @@ img {
     font-size: var(--font-size-xxl);
   }
 
-  .card-content .publish-date {
+  .category {
+    font-size: var(--font-size-m);
+  }
+
+  .publish-date {
     font-size: var(--font-size-m);
   }
 }
