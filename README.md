@@ -24,7 +24,14 @@ Users should be able to:
 
 ### Screenshot
 
-[Desktop](./design/solution/desktop.png) [Desktop Active States](./design/solution/desktop-active.png) [Mobile](./design/solution/mobile.png)
+#### Desktop
+![Desktop](./design/solution/desktop.png)
+
+#### Desktop Active States
+![Desktop Active States](./design/solution/desktop-active.png)
+
+#### Mobile
+![Mobile](./design/solution/mobile.png)
 
 ### Links
 
