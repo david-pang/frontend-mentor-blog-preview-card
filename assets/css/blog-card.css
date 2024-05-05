@@ -43,6 +43,10 @@ body {
   margin: 0;
 }
 
+h1 {
+  display: none;
+}
+
 h2 {
   font-size: var(--font-size-xl);
   font-weight: var(--font-weight-extra-bold);
