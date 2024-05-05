@@ -7,9 +7,6 @@
   --color-link: var(--black);
   --color-link-hover: var(--yellow);
 
-  --bp-desktop: 1440px;
-  --bp-mobile: 375px;
-
   --font-family-primary: Figtree, sans-serif;
   --font-size-s: 12px;
   --font-size-m: 14px;
@@ -61,7 +58,8 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+a:hover,
+a:focus {
   color: var(--color-link-hover);
 }
 
